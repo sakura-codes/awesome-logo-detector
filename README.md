@@ -12,7 +12,7 @@ This project is an implementation of the paper "A Deep One-Shot Network for Quer
 The neural network model is composed by a "conditional" branch and a "segmentation" branch. 
 The conditional branch gives a latent representation of the query logo. This representation is then combined with feature maps of the segmentation branch at multiple scales, making the model scale-invariant.
 
-![picture alt](https://github.com/sakura-codes/awesome-logo-detector/blob/master/figures/paper.png "")
+![picture alt](https://github.com/sakura-codes/awesome-logo-detector/blob/main/figures/paper.png "")
 <center>Illustration of query-based logo detection problem (from Bhunia et al. 2019)</center>
 
 ## Depencencies
@@ -26,11 +26,11 @@ pip install -r requirements.txt
 
 Here a screenshots of the prediction for a logo of the same class:
 
-![picture alt](https://github.com/sakura-codes/awesome-logo-detector/blob/master/figures/results2.png "")
+![picture alt](https://github.com/sakura-codes/awesome-logo-detector/blob/main/figures/results2.png "")
 
 And here the prediction for a different class. The predicted mask is zero.
 
-![picture alt](https://github.com/sakura-codes/awesome-logo-detector/blob/master/figures/results4.png "")
+![picture alt](https://github.com/sakura-codes/awesome-logo-detector/blob/main/figures/results4.png "")
 
 
 ## Train
