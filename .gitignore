@@ -1,0 +1,17 @@
+**/.ipynb_checkpoints/*
+**.log
+*.pyc
+*/*.pyc
+*/**/__pycache__/*
+tensorboard/*
+old/
+snapshots/*
+experiments/*
+tensorboard/*
+datasets/labels.json
+!.gitkeep
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*~
+activate_env.sh 
+README_draft.md
